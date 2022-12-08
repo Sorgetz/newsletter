@@ -27,8 +27,7 @@ public class SchedulerService {
 
     private static final String TIME_ZONE = "America/Sao_Paulo";
 
-//    @Scheduled(cron = "0 0 8 * * *", zone = TIME_ZONE)
-    @Scheduled(cron = "0 5 0 * * *", zone = TIME_ZONE)
+    @Scheduled(cron = "0 0 8 * * *", zone = TIME_ZONE)
     public void sendNewsEmail(){
 
         log.info("Starting to send emails to users at " + LocalDateTime.now());
