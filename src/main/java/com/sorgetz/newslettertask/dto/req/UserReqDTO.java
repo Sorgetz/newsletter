@@ -1,11 +1,8 @@
 package com.sorgetz.newslettertask.dto.req;
 
 import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotNull;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-//import org.jetbrains.annotations.NotNull;
 
 import java.time.LocalDate;
 
